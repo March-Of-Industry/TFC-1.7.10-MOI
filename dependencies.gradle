@@ -1,0 +1,8 @@
+// Add your dependencies here
+
+dependencies {
+    compile('com.github.GTNewHorizons:NotEnoughItems:2.2.15-GTNH:dev')
+    compile('com.github.GTNewHorizons:CodeChickenCore:1.1.4:dev')
+    compile('com.github.GTNewHorizons:CodeChickenLib:1.1.5.3:dev')
+    compile "mcp.mobius.waila:Waila:1.5.11-RC2-NONEI_1.7.10"
+}

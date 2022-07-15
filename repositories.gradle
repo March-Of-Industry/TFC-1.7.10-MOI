@@ -1,0 +1,26 @@
+// Add any additional repositories for your dependencies here
+
+repositories {
+    maven {
+        // The repo from which to get waila
+        name "Mobius Repo"
+        url "http://mobiusstrip.eu/maven"
+    }
+    maven {
+        name 'CurseForge Maven'
+        url 'https://minecraft.curseforge.com/api/maven/'
+        metadataSources {
+            mavenPom()
+            artifact()
+        }
+    }
+    maven {
+        url 'https://cursemaven.com'
+        content {
+            includeGroup 'curse.maven'
+        }
+    }
+    maven {
+        url 'https://jitpack.io'
+    }
+}
