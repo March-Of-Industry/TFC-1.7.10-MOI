@@ -19,7 +19,7 @@ public class TFCASMLoadingPlugin implements IFMLLoadingPlugin {
     @Override
     public String[] getASMTransformerClass() {
         return new String[] {
-            TF_EntityRenderer.class.getName(),
+            // TF_EntityRenderer.class.getName(), //Disabled For DragonAPI Compatibility, event fix in TerraNexCorp
             TF_RenderGlobal.class.getName(),
             TF_EntityLeashKnot.class.getName(),
             TF_EntityPlayerMP.class.getName(),

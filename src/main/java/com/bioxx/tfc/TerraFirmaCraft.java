@@ -59,6 +59,7 @@ public class TerraFirmaCraft {
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
+        LOG.info("Loading Patched Version of TerraFirmaCraft");
         TFC_ConfigFiles.preInit(event.getModConfigurationDirectory());
         TFC_ConfigFiles.reloadGeneral(); // No special needs
         // No world gen here, other mods may need to load first!
